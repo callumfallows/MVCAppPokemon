@@ -1,0 +1,19 @@
+﻿@model PokemonAPI.Models.ViewModel.CardsViewModel
+
+@{
+    ViewBag.Title = "Cardss";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cards</title>
+</head>
+<body>
+<div>
+    @Model.Pokemon.Card.Name;
+</div>
+</body>
+</html>
