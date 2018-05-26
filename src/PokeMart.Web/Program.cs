@@ -1,31 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
-using Microsoft.AspNetCore.Builder;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace PokeMart.Web
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
+            BuildWebHost(args).Run();
+        }
+
+        public static IWebHost BuildWebHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
-
-            host.Run();
-        }
-    }
-
-    public class Startup
-    {
-        public void Configure(IApplicationBuilder app)
-        {
-            app.Run(context => context.Response.WriteAsync("Hello from ASP.NET Core!"));
-        }
     }
 }

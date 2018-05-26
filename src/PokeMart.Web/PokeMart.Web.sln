@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeMart.Web", "PokeMart.Web.csproj", "{911E7B6D-9C9F-4CDF-B8F3-16E00021F040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeMart.Web", "PokeMart.Web.csproj", "{5CBF2198-AA6F-4439-91DC-3625D5FD4B40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{911E7B6D-9C9F-4CDF-B8F3-16E00021F040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{911E7B6D-9C9F-4CDF-B8F3-16E00021F040}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{911E7B6D-9C9F-4CDF-B8F3-16E00021F040}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{911E7B6D-9C9F-4CDF-B8F3-16E00021F040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBF2198-AA6F-4439-91DC-3625D5FD4B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBF2198-AA6F-4439-91DC-3625D5FD4B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBF2198-AA6F-4439-91DC-3625D5FD4B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBF2198-AA6F-4439-91DC-3625D5FD4B40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {33E5C8DA-57EF-446D-85C2-9A04272322ED}
+		SolutionGuid = {D2D9E901-4643-4A8B-A8FB-60FD8627F4A1}
 	EndGlobalSection
 EndGlobal
