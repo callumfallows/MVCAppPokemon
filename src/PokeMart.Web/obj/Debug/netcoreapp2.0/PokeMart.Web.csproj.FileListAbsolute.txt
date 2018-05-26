@@ -1,0 +1,11 @@
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\bin\Debug\netcoreapp2.0\PokeMart.Web.deps.json
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\bin\Debug\netcoreapp2.0\PokeMart.Web.runtimeconfig.json
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\bin\Debug\netcoreapp2.0\PokeMart.Web.runtimeconfig.dev.json
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\bin\Debug\netcoreapp2.0\PokeMart.Web.dll
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\bin\Debug\netcoreapp2.0\PokeMart.Web.pdb
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\obj\Debug\netcoreapp2.0\PokeMart.Web.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\obj\Debug\netcoreapp2.0\PokeMart.Web.AssemblyInfoInputs.cache
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\obj\Debug\netcoreapp2.0\PokeMart.Web.AssemblyInfo.cs
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\obj\Debug\netcoreapp2.0\PokeMart.Web.dll
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\obj\Debug\netcoreapp2.0\PokeMart.Web.pdb
+C:\Users\Tom\Documents\Code\PokeMart\src\PokeMart.Web\obj\Debug\netcoreapp2.0\PokeMart.Web.csprojResolveAssemblyReference.cache
