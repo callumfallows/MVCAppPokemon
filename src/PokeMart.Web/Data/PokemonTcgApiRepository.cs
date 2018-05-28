@@ -40,6 +40,17 @@ namespace PokeMart.Web.Data
             return response.cards.Select(MapCard).ToList();
         }
 
+        public async Task<Card> Card(string cardId)
+        {
+            var responseStr = await _httpClient.GetStringAsync("https://api.pokemontcg.io/v1/cards/" + cardId);
+            var response = JsonConvert.DeserializeObject<CardJsonProxy>(responseStr);
+
+            if (response.card == null)
+                return null;
+
+            return MapCard(response.card);
+        }
+
         private Card MapCard(CardInnerJsonProxy c)
         {
             var attacks = c.attacks.Select(a => new Attack(a.cost, a.name, a.text, a.damage, a.convertedEnergyCost)).ToArray();
@@ -69,6 +80,11 @@ namespace PokeMart.Web.Data
         private class CardsJsonProxy
         {
             public List<CardInnerJsonProxy> cards { get; set; }
+        }
+
+        private class CardJsonProxy
+        {
+            public CardInnerJsonProxy card { get; set; }
         }
 
         private class CardInnerJsonProxy
@@ -129,6 +145,7 @@ namespace PokeMart.Web.Data
         {
             public List<CardSetInnerJsonProxy> sets { get; set; } = new List<CardSetInnerJsonProxy>();
         }
+
         private class CardSetJsonProxy
         {
             public CardSetInnerJsonProxy set { get; set; }
